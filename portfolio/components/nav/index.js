@@ -1,6 +1,7 @@
 import React from "react"
-
-Const catagori
+import {capitializeFirstLetter} from "../../utils/helpers"
+const categories =[
+    {}]
 
 
 
@@ -27,6 +28,7 @@ function Nav(){
             {categories.map((category) => (
               <li className="mx-1" key={category.name}>
                 <span onClick={categorySelected}>{category.name}</span>
+                {capitializeFirstLetter(category.name)}
               </li>
             ))}
           </ul>
