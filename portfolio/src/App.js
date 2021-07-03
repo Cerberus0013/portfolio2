@@ -1,23 +1,26 @@
 
 import './App.css';
 import React from "react";
-import About from "./components/About/about";
-import Nav from "./components/Nav/index.js";
-import Footer from "./components/Footer/index.js";
-import Projects from "./components/Projects/index.js"
-import Resume from "./components/Resume/index.js"
+
+
+// import About from "./components/About/about";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/index";
+// import  from "./components/Projects/index.js"
+// import Resume from "./components/Resume/index.js"
+import Portfolio from "./components/Portfolio/portfolio"
 
 function App() {
-  return (
+  return(
+  
    <div>
-     <Nav></Nav>
+     <Header/>
      <main>
-    <About></About>
-    <Projects></Projects>
-    <Resume></Resume>
-     </main>
-    <Footer></Footer>
+ <Portfolio/>
+    </main>
+   <Footer/> 
    </div> 
+
   );
 }
 
