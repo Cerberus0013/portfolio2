@@ -3,8 +3,9 @@ import './App.css';
 import React from "react";
 
 
-// import About from "./components/About/about";
+import About from "./components/About/index";
 import Header from "./components/Header/header";
+import Contact from "./components/Contact/index"
 import Footer from "./components/Footer/index";
 // import  from "./components/Projects/index.js"
 // import Resume from "./components/Resume/index.js"
@@ -16,7 +17,9 @@ function App() {
    <div>
      <Header/>
      <main>
+       <About/>
  <Portfolio/>
+  <Contact/>
     </main>
    <Footer/> 
    </div> 
